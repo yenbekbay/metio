@@ -1,0 +1,3 @@
+@interface MTWeatherViewController : UIViewController
+
+@end

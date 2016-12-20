@@ -1,0 +1,19 @@
+app "1055506207"
+
+primary_category "Weather"
+secondary_category "Social Networking"
+
+price_tier 0
+
+screenshots_path "./screenshots"
+app_icon './AppIcon.png'
+app_rating_config_path "./ratings.json"
+copyright "Ayan Yenbekbay"
+
+app_review_information(
+  first_name: "Ayan",
+  last_name: "Yenbekbay",
+  phone_number: "6126444413",
+  email_address: "ayan.yenb@gmail.com"
+)
+automatic_release true

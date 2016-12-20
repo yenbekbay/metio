@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Metio";
+"NSLocationWhenInUseUsageDescription" = "Metio будет использовать ваше местоположение только чтобы показывать вам прогноз погоды в вашем городе.";
+"NSLocationAlwaysUsageDescription" = "Metio будет использовать ваше местоположение только чтобы показывать вам прогноз погоды в вашем городе.";

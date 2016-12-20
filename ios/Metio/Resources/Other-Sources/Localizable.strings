@@ -1,0 +1,50 @@
+"DifferentTemperatureFormat" = "На улице %@ %@, чем было %@%@.";
+"SameTemperatureFormat" = "На улице %@ %@, как было %@%@.";
+
+"Hotter" = "жарче";
+"Warmer" = "теплее";
+"Cooler" = "прохладнее";
+"Colder" = "холоднее";
+"Same" = "так же";
+
+"Today" = "сегодня";
+"Yesterday" = "вчера";
+"Tonight" = "сегодня вечером";
+"LastNight" = "прошлым вечером";
+"ThisMorning" = "этим утром";
+"YesterdayMorning" = "прошлым утром";
+"ThisAfternoon" = "сегодня днем";
+"YesterdayAfternoon" = "вчера днем";
+
+"NoneRain" = "";
+"SlightRain" = ", с небольшой вероятностью будет дождь";
+"GoodRain" = ", с большой вероятностью будет дождь";
+"NoneSnow" = ", снега быть не должно";
+"SlightSnow" = ", с небольшой вероятностью будет идти снег";
+"GoodSnow" = ", с большой вероятностью будет идти снег";
+
+"North" = "Север";
+"N" = "С";
+"Northeast" = "Северо-восток";
+"NE" = "СВ";
+"East" = "Восток";
+"E" = "В";
+"Southeast" = "Юго-восток";
+"SE" = "ЮВ";
+"South" = "Юг";
+"S" = "Ю";
+"Southwest" = "Юго-запад";
+"SW" = "ЮЗ";
+"West" = "Запад";
+"W" = "З";
+"Northwest" = "Северо-запад";
+"NW" = "СЗ";
+
+"km/h" = "км/ч";
+"m/s" = "м/с";
+
+"UpdatedAtDateAndTime" = "Обновлялось %@ в %@";
+"UpdatedAtTime" = "Обновлялось в %@";
+
+"CheckingWeather" = "Запрашивается прогноз...";
+"UpdateFailed" = "Не удалось обновить";

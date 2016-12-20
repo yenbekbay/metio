@@ -1,0 +1,3 @@
+@interface UIImagePickerController (MTBugFix)
+
+@end

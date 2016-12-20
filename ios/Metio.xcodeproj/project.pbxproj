@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08851A13A0E86AFED2E7709C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D03F54B1ECA9536BAD4919 /* Foundation.framework */; };
+		116C1E3C9425040537471D19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41733427ED7F2A82CFFEDCC0 /* Images.xcassets */; };
+		1A078656CF79D7132153C781 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 756FD24D19D9EB4F395E5F67 /* LaunchScreen.xib */; };
+		202C58081BE4A10D0090109A /* MTForecastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 202C58071BE4A10D0090109A /* MTForecastManager.m */; };
+		203238481BE975100015352E /* EBCardCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 203238471BE975100015352E /* EBCardCollectionViewLayout.m */; };
+		203396FC1BE5642E0046F2B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 203396FB1BE5642E0046F2B2 /* InfoPlist.strings */; };
+		203397021BE580E70046F2B2 /* UIFont+MTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 203397011BE580E70046F2B2 /* UIFont+MTHelpers.m */; };
+		203397041BE581EC0046F2B2 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 203397031BE581EC0046F2B2 /* Lato-Light.ttf */; };
+		203397061BE582700046F2B2 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 203397051BE582700046F2B2 /* Lato-Regular.ttf */; };
+		20365D491BE70E5F0096FF60 /* Almaty.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 20365D481BE70E5F0096FF60 /* Almaty.gpx */; };
+		204C6EC91BE5921B009CBA21 /* BebasNeue-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 204C6EC81BE5921B009CBA21 /* BebasNeue-Bold.otf */; };
+		204C6ECC1BE5AB19009CBA21 /* MTStoriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C6ECB1BE5AB19009CBA21 /* MTStoriesView.m */; };
+		204C6ECF1BE5AC56009CBA21 /* MTStoriesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C6ECE1BE5AC56009CBA21 /* MTStoriesViewCell.m */; };
+		204C6ED21BE5ADE5009CBA21 /* UILabel+MTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C6ED11BE5ADE5009CBA21 /* UILabel+MTHelpers.m */; };
+		204C6ED51BE5AE4A009CBA21 /* MTStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C6ED41BE5AE4A009CBA21 /* MTStory.m */; };
+		206CBD141BE6B987005FE76E /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD131BE6B987005FE76E /* DAKeyboardControl.m */; };
+		206CBD171BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD161BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.m */; };
+		206CBD1A1BE6BCC9005FE76E /* MTAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD191BE6BCC9005FE76E /* MTAlertManager.m */; };
+		206CBD1E1BE6C3EF005FE76E /* JTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD1D1BE6C3EE005FE76E /* JTProgressHUD.m */; };
+		206CBD211BE6D99C005FE76E /* FSOpenInInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD201BE6D99C005FE76E /* FSOpenInInstagram.m */; };
+		206CBD251BE6F6B0005FE76E /* MTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD241BE6F6B0005FE76E /* MTAboutViewController.m */; };
+		206CBD281BE6F7B1005FE76E /* MTAboutViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 206CBD271BE6F7B1005FE76E /* MTAboutViewButton.m */; };
+		20A4AE211BE4A32300F21216 /* MTWeatherUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE201BE4A32300F21216 /* MTWeatherUpdate.m */; };
+		20A4AE281BE4A41C00F21216 /* MTTemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE231BE4A41C00F21216 /* MTTemperature.m */; };
+		20A4AE2A1BE4A41C00F21216 /* MTDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE271BE4A41C00F21216 /* MTDailyForecast.m */; };
+		20A4AE2D1BE523DE00F21216 /* NSDate+MTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE2C1BE523DE00F21216 /* NSDate+MTHelpers.m */; };
+		20A4AE301BE5259100F21216 /* MTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE2F1BE5259100F21216 /* MTLocationManager.m */; };
+		20A4AE331BE5263700F21216 /* CLLocation+MTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE321BE5263700F21216 /* CLLocation+MTHelpers.m */; };
+		20A4AE391BE526FB00F21216 /* LMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE361BE526FB00F21216 /* LMAddress.m */; };
+		20A4AE3A1BE526FB00F21216 /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE381BE526FB00F21216 /* LMGeocoder.m */; };
+		20A4AE3D1BE528AB00F21216 /* MTWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE3C1BE528AB00F21216 /* MTWeatherManager.m */; };
+		20A4AE401BE52B8E00F21216 /* MTWeatherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE3F1BE52B8E00F21216 /* MTWeatherViewModel.m */; };
+		20A4AE431BE52CE700F21216 /* MTDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE421BE52CE600F21216 /* MTDateFormatter.m */; };
+		20A4AE461BE52D8900F21216 /* MTTemperatureComparisonFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE451BE52D8900F21216 /* MTTemperatureComparisonFormatter.m */; };
+		20A4AE491BE52E2500F21216 /* MTTemperatureFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE481BE52E2500F21216 /* MTTemperatureFormatter.m */; };
+		20A4AE4C1BE52FD800F21216 /* MTWindSpeedFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE4B1BE52FD800F21216 /* MTWindSpeedFormatter.m */; };
+		20A4AE4F1BE5301700F21216 /* MTBearingFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE4E1BE5301700F21216 /* MTBearingFormatter.m */; };
+		20A4AE521BE530E100F21216 /* MTDailyForecastViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE511BE530E100F21216 /* MTDailyForecastViewModel.m */; };
+		20A4AE551BE531E600F21216 /* UIColor+MTTints.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE541BE531E600F21216 /* UIColor+MTTints.m */; };
+		20A4AE581BE5368E00F21216 /* MTWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE571BE5368E00F21216 /* MTWeatherViewController.m */; };
+		20A4AE5B1BE538A600F21216 /* MTWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE5A1BE538A600F21216 /* MTWeatherView.m */; };
+		20A4AE611BE53C9D00F21216 /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE601BE53C9D00F21216 /* UIView+AYUtils.m */; };
+		20A4AE671BE5546E00F21216 /* MTApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE661BE5546E00F21216 /* MTApplicationManager.m */; };
+		20A4AE6A1BE5559D00F21216 /* MTWeatherUpdateCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE691BE5559D00F21216 /* MTWeatherUpdateCache.m */; };
+		20A4AE6D1BE557C300F21216 /* MTPrecipitationChanceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE6C1BE557C300F21216 /* MTPrecipitationChanceFormatter.m */; };
+		20A4AE701BE5582100F21216 /* MTPrecipitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4AE6F1BE5582100F21216 /* MTPrecipitation.m */; };
+		20A4AE721BE55AA500F21216 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20A4AE711BE55AA500F21216 /* Localizable.strings */; };
+		20B678721BE6F96F003896E6 /* AYAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6786F1BE6F96F003896E6 /* AYAppStore.m */; };
+		20B678731BE6F96F003896E6 /* AYFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B678711BE6F96F003896E6 /* AYFeedback.m */; };
+		20B678761BE70000003896E6 /* MTPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B678751BE70000003896E6 /* MTPromptView.m */; };
+		20E1B8071BE5FC2F00D4432F /* UIImage+AYHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8061BE5FC2F00D4432F /* UIImage+AYHelpers.m */; };
+		20E1B80B1BE5FE7F00D4432F /* MTIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B80A1BE5FE7F00D4432F /* MTIconButton.m */; };
+		20E1B80E1BE6919000D4432F /* MTStoriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B80D1BE6919000D4432F /* MTStoriesManager.m */; };
+		20E1B8111BE6A0B600D4432F /* MTStoryFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8101BE6A0B600D4432F /* MTStoryFormViewController.m */; };
+		20E1B81E1BE6A25F00D4432F /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8151BE6A25F00D4432F /* STPopupController.m */; };
+		20E1B81F1BE6A25F00D4432F /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8171BE6A25F00D4432F /* STPopupLeftBarItem.m */; };
+		20E1B8201BE6A25F00D4432F /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8191BE6A25F00D4432F /* STPopupNavigationBar.m */; };
+		20E1B8211BE6A25F00D4432F /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B81B1BE6A25F00D4432F /* UIResponder+STPopup.m */; };
+		20E1B8221BE6A25F00D4432F /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B81D1BE6A25F00D4432F /* UIViewController+STPopup.m */; };
+		20E1B8251BE6A59A00D4432F /* NSString+MTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B8241BE6A59A00D4432F /* NSString+MTHelpers.m */; };
+		2D9057A0FFA9DDFCFE273AC8 /* Pods_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B101EF69DBD3A2C90DA6E9CE /* Pods_unit_tests.framework */; };
+		4040DBC9A51123CB3191C136 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B9AAAAFF93DBB515D7508 /* MTAppDelegate.m */; };
+		492FA0AFC590CF9178784CE5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFE07D9EF6ED09829D0A8526 /* Settings.bundle */; };
+		A01EB7554C2D330E11D55A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DBFD7AB3CC4679EC50CA36 /* main.m */; };
+		FA66C957061F4FFB8DE0EFEB /* Pods_Metio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36F46E6355E80F8046D21CC /* Pods_Metio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0C774BB441D847596C1EAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6896F753EDD63DCC31B672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF3C071312CDF34D36248D0;
+			remoteInfo = Metio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202C58061BE4A10D0090109A /* MTForecastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTForecastManager.h; sourceTree = "<group>"; };
+		202C58071BE4A10D0090109A /* MTForecastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTForecastManager.m; sourceTree = "<group>"; };
+		203238451BE971D20015352E /* AYMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYMacros.h; sourceTree = "<group>"; };
+		203238461BE975100015352E /* EBCardCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCardCollectionViewLayout.h; sourceTree = "<group>"; };
+		203238471BE975100015352E /* EBCardCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCardCollectionViewLayout.m; sourceTree = "<group>"; };
+		203396FB1BE5642E0046F2B2 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		203397001BE580E70046F2B2 /* UIFont+MTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MTHelpers.h"; sourceTree = "<group>"; };
+		203397011BE580E70046F2B2 /* UIFont+MTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MTHelpers.m"; sourceTree = "<group>"; };
+		203397031BE581EC0046F2B2 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		203397051BE582700046F2B2 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		20365D481BE70E5F0096FF60 /* Almaty.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Almaty.gpx; sourceTree = "<group>"; };
+		204C6EC81BE5921B009CBA21 /* BebasNeue-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Bold.otf"; sourceTree = "<group>"; };
+		204C6ECA1BE5AB19009CBA21 /* MTStoriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStoriesView.h; sourceTree = "<group>"; };
+		204C6ECB1BE5AB19009CBA21 /* MTStoriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStoriesView.m; sourceTree = "<group>"; };
+		204C6ECD1BE5AC56009CBA21 /* MTStoriesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStoriesViewCell.h; sourceTree = "<group>"; };
+		204C6ECE1BE5AC56009CBA21 /* MTStoriesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStoriesViewCell.m; sourceTree = "<group>"; };
+		204C6ED01BE5ADE5009CBA21 /* UILabel+MTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MTHelpers.h"; sourceTree = "<group>"; };
+		204C6ED11BE5ADE5009CBA21 /* UILabel+MTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MTHelpers.m"; sourceTree = "<group>"; };
+		204C6ED31BE5AE4A009CBA21 /* MTStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStory.h; sourceTree = "<group>"; };
+		204C6ED41BE5AE4A009CBA21 /* MTStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStory.m; sourceTree = "<group>"; };
+		206CBD121BE6B987005FE76E /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		206CBD131BE6B987005FE76E /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		206CBD151BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+MTBugFix.h"; sourceTree = "<group>"; };
+		206CBD161BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+MTBugFix.m"; sourceTree = "<group>"; };
+		206CBD181BE6BCC9005FE76E /* MTAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertManager.h; sourceTree = "<group>"; };
+		206CBD191BE6BCC9005FE76E /* MTAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAlertManager.m; sourceTree = "<group>"; };
+		206CBD1C1BE6C3EE005FE76E /* JTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTProgressHUD.h; sourceTree = "<group>"; };
+		206CBD1D1BE6C3EE005FE76E /* JTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTProgressHUD.m; sourceTree = "<group>"; };
+		206CBD1F1BE6D99C005FE76E /* FSOpenInInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOpenInInstagram.h; sourceTree = "<group>"; };
+		206CBD201BE6D99C005FE76E /* FSOpenInInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOpenInInstagram.m; sourceTree = "<group>"; };
+		206CBD231BE6F6B0005FE76E /* MTAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAboutViewController.h; sourceTree = "<group>"; };
+		206CBD241BE6F6B0005FE76E /* MTAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAboutViewController.m; sourceTree = "<group>"; };
+		206CBD261BE6F7B1005FE76E /* MTAboutViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTAboutViewButton.h; path = ../Controllers/MTAboutViewButton.h; sourceTree = "<group>"; };
+		206CBD271BE6F7B1005FE76E /* MTAboutViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTAboutViewButton.m; path = ../Controllers/MTAboutViewButton.m; sourceTree = "<group>"; };
+		20A4AE1F1BE4A32300F21216 /* MTWeatherUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherUpdate.h; sourceTree = "<group>"; };
+		20A4AE201BE4A32300F21216 /* MTWeatherUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherUpdate.m; sourceTree = "<group>"; };
+		20A4AE221BE4A41C00F21216 /* MTTemperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTemperature.h; sourceTree = "<group>"; };
+		20A4AE231BE4A41C00F21216 /* MTTemperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTemperature.m; sourceTree = "<group>"; };
+		20A4AE261BE4A41C00F21216 /* MTDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDailyForecast.h; sourceTree = "<group>"; };
+		20A4AE271BE4A41C00F21216 /* MTDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDailyForecast.m; sourceTree = "<group>"; };
+		20A4AE2B1BE523DE00F21216 /* NSDate+MTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MTHelpers.h"; sourceTree = "<group>"; };
+		20A4AE2C1BE523DE00F21216 /* NSDate+MTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MTHelpers.m"; sourceTree = "<group>"; };
+		20A4AE2E1BE5259100F21216 /* MTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationManager.h; sourceTree = "<group>"; };
+		20A4AE2F1BE5259100F21216 /* MTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationManager.m; sourceTree = "<group>"; };
+		20A4AE311BE5263700F21216 /* CLLocation+MTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+MTHelpers.h"; sourceTree = "<group>"; };
+		20A4AE321BE5263700F21216 /* CLLocation+MTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+MTHelpers.m"; sourceTree = "<group>"; };
+		20A4AE351BE526FB00F21216 /* LMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAddress.h; sourceTree = "<group>"; };
+		20A4AE361BE526FB00F21216 /* LMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAddress.m; sourceTree = "<group>"; };
+		20A4AE371BE526FB00F21216 /* LMGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGeocoder.h; sourceTree = "<group>"; };
+		20A4AE381BE526FB00F21216 /* LMGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGeocoder.m; sourceTree = "<group>"; };
+		20A4AE3B1BE528AB00F21216 /* MTWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherManager.h; sourceTree = "<group>"; };
+		20A4AE3C1BE528AB00F21216 /* MTWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherManager.m; sourceTree = "<group>"; };
+		20A4AE3E1BE52B8E00F21216 /* MTWeatherViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherViewModel.h; sourceTree = "<group>"; };
+		20A4AE3F1BE52B8E00F21216 /* MTWeatherViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherViewModel.m; sourceTree = "<group>"; };
+		20A4AE411BE52CE600F21216 /* MTDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDateFormatter.h; sourceTree = "<group>"; };
+		20A4AE421BE52CE600F21216 /* MTDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDateFormatter.m; sourceTree = "<group>"; };
+		20A4AE441BE52D8900F21216 /* MTTemperatureComparisonFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTemperatureComparisonFormatter.h; sourceTree = "<group>"; };
+		20A4AE451BE52D8900F21216 /* MTTemperatureComparisonFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTemperatureComparisonFormatter.m; sourceTree = "<group>"; };
+		20A4AE471BE52E2500F21216 /* MTTemperatureFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTemperatureFormatter.h; sourceTree = "<group>"; };
+		20A4AE481BE52E2500F21216 /* MTTemperatureFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTemperatureFormatter.m; sourceTree = "<group>"; };
+		20A4AE4A1BE52FD800F21216 /* MTWindSpeedFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWindSpeedFormatter.h; sourceTree = "<group>"; };
+		20A4AE4B1BE52FD800F21216 /* MTWindSpeedFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWindSpeedFormatter.m; sourceTree = "<group>"; };
+		20A4AE4D1BE5301700F21216 /* MTBearingFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBearingFormatter.h; sourceTree = "<group>"; };
+		20A4AE4E1BE5301700F21216 /* MTBearingFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBearingFormatter.m; sourceTree = "<group>"; };
+		20A4AE501BE530E100F21216 /* MTDailyForecastViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDailyForecastViewModel.h; sourceTree = "<group>"; };
+		20A4AE511BE530E100F21216 /* MTDailyForecastViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDailyForecastViewModel.m; sourceTree = "<group>"; };
+		20A4AE531BE531E600F21216 /* UIColor+MTTints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTTints.h"; sourceTree = "<group>"; };
+		20A4AE541BE531E600F21216 /* UIColor+MTTints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTTints.m"; sourceTree = "<group>"; };
+		20A4AE561BE5368E00F21216 /* MTWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherViewController.h; sourceTree = "<group>"; };
+		20A4AE571BE5368E00F21216 /* MTWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherViewController.m; sourceTree = "<group>"; };
+		20A4AE591BE538A600F21216 /* MTWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherView.h; sourceTree = "<group>"; };
+		20A4AE5A1BE538A600F21216 /* MTWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherView.m; sourceTree = "<group>"; };
+		20A4AE5F1BE53C9D00F21216 /* UIView+AYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYUtils.h"; sourceTree = "<group>"; };
+		20A4AE601BE53C9D00F21216 /* UIView+AYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYUtils.m"; sourceTree = "<group>"; };
+		20A4AE651BE5546E00F21216 /* MTApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTApplicationManager.h; sourceTree = "<group>"; };
+		20A4AE661BE5546E00F21216 /* MTApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTApplicationManager.m; sourceTree = "<group>"; };
+		20A4AE681BE5559D00F21216 /* MTWeatherUpdateCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWeatherUpdateCache.h; sourceTree = "<group>"; };
+		20A4AE691BE5559D00F21216 /* MTWeatherUpdateCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWeatherUpdateCache.m; sourceTree = "<group>"; };
+		20A4AE6B1BE557C300F21216 /* MTPrecipitationChanceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPrecipitationChanceFormatter.h; sourceTree = "<group>"; };
+		20A4AE6C1BE557C300F21216 /* MTPrecipitationChanceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPrecipitationChanceFormatter.m; sourceTree = "<group>"; };
+		20A4AE6E1BE5582100F21216 /* MTPrecipitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPrecipitation.h; sourceTree = "<group>"; };
+		20A4AE6F1BE5582100F21216 /* MTPrecipitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPrecipitation.m; sourceTree = "<group>"; };
+		20A4AE711BE55AA500F21216 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		20B65C85207E68FB00AB4DD9 /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		20B6786E1BE6F96F003896E6 /* AYAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAppStore.h; sourceTree = "<group>"; };
+		20B6786F1BE6F96F003896E6 /* AYAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYAppStore.m; sourceTree = "<group>"; };
+		20B678701BE6F96F003896E6 /* AYFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYFeedback.h; sourceTree = "<group>"; };
+		20B678711BE6F96F003896E6 /* AYFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYFeedback.m; sourceTree = "<group>"; };
+		20B678741BE70000003896E6 /* MTPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPromptView.h; sourceTree = "<group>"; };
+		20B678751BE70000003896E6 /* MTPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPromptView.m; sourceTree = "<group>"; };
+		20E1B8051BE5FC2F00D4432F /* UIImage+AYHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AYHelpers.h"; sourceTree = "<group>"; };
+		20E1B8061BE5FC2F00D4432F /* UIImage+AYHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AYHelpers.m"; sourceTree = "<group>"; };
+		20E1B8091BE5FE7F00D4432F /* MTIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTIconButton.h; sourceTree = "<group>"; };
+		20E1B80A1BE5FE7F00D4432F /* MTIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTIconButton.m; sourceTree = "<group>"; };
+		20E1B80C1BE6919000D4432F /* MTStoriesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStoriesManager.h; sourceTree = "<group>"; };
+		20E1B80D1BE6919000D4432F /* MTStoriesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStoriesManager.m; sourceTree = "<group>"; };
+		20E1B80F1BE6A0B600D4432F /* MTStoryFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStoryFormViewController.h; sourceTree = "<group>"; };
+		20E1B8101BE6A0B600D4432F /* MTStoryFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStoryFormViewController.m; sourceTree = "<group>"; };
+		20E1B8131BE6A25F00D4432F /* STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopup.h; sourceTree = "<group>"; };
+		20E1B8141BE6A25F00D4432F /* STPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupController.h; sourceTree = "<group>"; };
+		20E1B8151BE6A25F00D4432F /* STPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupController.m; sourceTree = "<group>"; };
+		20E1B8161BE6A25F00D4432F /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		20E1B8171BE6A25F00D4432F /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupLeftBarItem.m; sourceTree = "<group>"; };
+		20E1B8181BE6A25F00D4432F /* STPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupNavigationBar.h; sourceTree = "<group>"; };
+		20E1B8191BE6A25F00D4432F /* STPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupNavigationBar.m; sourceTree = "<group>"; };
+		20E1B81A1BE6A25F00D4432F /* UIResponder+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		20E1B81B1BE6A25F00D4432F /* UIResponder+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		20E1B81C1BE6A25F00D4432F /* UIViewController+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STPopup.h"; sourceTree = "<group>"; };
+		20E1B81D1BE6A25F00D4432F /* UIViewController+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		20E1B8231BE6A59A00D4432F /* NSString+MTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MTHelpers.h"; sourceTree = "<group>"; };
+		20E1B8241BE6A59A00D4432F /* NSString+MTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTHelpers.m"; sourceTree = "<group>"; };
+		3C05113ACFF684194A7A44A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41733427ED7F2A82CFFEDCC0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A79CC547117A3774B51E8D9 /* MTAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		5D7CD5E47A4F06EFF068E01C /* Pods-Metio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metio/Pods-Metio.debug.xcconfig"; sourceTree = "<group>"; };
+		628DDCE4BE3E602757864863 /* Metio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA2AF9C575207C0F440A18 /* Pods-Metio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metio/Pods-Metio.release.xcconfig"; sourceTree = "<group>"; };
+		756FD24D19D9EB4F395E5F67 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		787CF9092B73971CD0E2D083 /* Metio.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metio.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9B9AAAAFF93DBB515D7508 /* MTAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		9D57731742DD84874B457465 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		A2D03F54B1ECA9536BAD4919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC03236A83B733D178BAD883 /* MetioTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetioTests-Prefix.pch"; sourceTree = "<group>"; };
+		B101EF69DBD3A2C90DA6E9CE /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE07D9EF6ED09829D0A8526 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C20DD8157E652F46D5DC9234 /* MetioTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MetioTests-Info.plist"; sourceTree = "<group>"; };
+		C36F46E6355E80F8046D21CC /* Pods_Metio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96EFC0977A398EC3BC97EF0 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E99B2A7849F02C7417D65793 /* Metio-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Metio-Prefix.pch"; sourceTree = "<group>"; };
+		F8DBFD7AB3CC4679EC50CA36 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E66029DC84B8676EB866FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9057A0FFA9DDFCFE273AC8 /* Pods_unit_tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C73FC603E8829D0DF804C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08851A13A0E86AFED2E7709C /* Foundation.framework in Frameworks */,
+				FA66C957061F4FFB8DE0EFEB /* Pods_Metio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E9319B3A83E9DA874ED533 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				203396FF1BE5808F0046F2B2 /* Fonts */,
+				75E00777DF9AED46600F2F56 /* Nibs */,
+				8D9B3C9CF893AEE3DDE84944 /* Other-Sources */,
+				41733427ED7F2A82CFFEDCC0 /* Images.xcassets */,
+				BFE07D9EF6ED09829D0A8526 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		203238491BE975160015352E /* EBCardCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				203238461BE975100015352E /* EBCardCollectionViewLayout.h */,
+				203238471BE975100015352E /* EBCardCollectionViewLayout.m */,
+			);
+			name = EBCardCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		203396FF1BE5808F0046F2B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				204C6EC81BE5921B009CBA21 /* BebasNeue-Bold.otf */,
+				203397031BE581EC0046F2B2 /* Lato-Light.ttf */,
+				203397051BE582700046F2B2 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		206CBD111BE6B987005FE76E /* DAKeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				206CBD121BE6B987005FE76E /* DAKeyboardControl.h */,
+				206CBD131BE6B987005FE76E /* DAKeyboardControl.m */,
+			);
+			path = DAKeyboardControl;
+			sourceTree = "<group>";
+		};
+		206CBD1B1BE6C3EE005FE76E /* JTProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				206CBD1C1BE6C3EE005FE76E /* JTProgressHUD.h */,
+				206CBD1D1BE6C3EE005FE76E /* JTProgressHUD.m */,
+			);
+			path = JTProgressHUD;
+			sourceTree = "<group>";
+		};
+		206CBD221BE6D99F005FE76E /* FSOpenInInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				206CBD1F1BE6D99C005FE76E /* FSOpenInInstagram.h */,
+				206CBD201BE6D99C005FE76E /* FSOpenInInstagram.m */,
+			);
+			name = FSOpenInInstagram;
+			sourceTree = "<group>";
+		};
+		20A4AE341BE526FB00F21216 /* LMGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				20A4AE351BE526FB00F21216 /* LMAddress.h */,
+				20A4AE361BE526FB00F21216 /* LMAddress.m */,
+				20A4AE371BE526FB00F21216 /* LMGeocoder.h */,
+				20A4AE381BE526FB00F21216 /* LMGeocoder.m */,
+			);
+			path = LMGeocoder;
+			sourceTree = "<group>";
+		};
+		20E1B8121BE6A25F00D4432F /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				20E1B8131BE6A25F00D4432F /* STPopup.h */,
+				20E1B8141BE6A25F00D4432F /* STPopupController.h */,
+				20E1B8151BE6A25F00D4432F /* STPopupController.m */,
+				20E1B8161BE6A25F00D4432F /* STPopupLeftBarItem.h */,
+				20E1B8171BE6A25F00D4432F /* STPopupLeftBarItem.m */,
+				20E1B8181BE6A25F00D4432F /* STPopupNavigationBar.h */,
+				20E1B8191BE6A25F00D4432F /* STPopupNavigationBar.m */,
+				20E1B81A1BE6A25F00D4432F /* UIResponder+STPopup.h */,
+				20E1B81B1BE6A25F00D4432F /* UIResponder+STPopup.m */,
+				20E1B81C1BE6A25F00D4432F /* UIViewController+STPopup.h */,
+				20E1B81D1BE6A25F00D4432F /* UIViewController+STPopup.m */,
+			);
+			path = STPopup;
+			sourceTree = "<group>";
+		};
+		24CE34147482ACF52408D26C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20B6786E1BE6F96F003896E6 /* AYAppStore.h */,
+				20B6786F1BE6F96F003896E6 /* AYAppStore.m */,
+				203238451BE971D20015352E /* AYMacros.h */,
+				20B678701BE6F96F003896E6 /* AYFeedback.h */,
+				20B678711BE6F96F003896E6 /* AYFeedback.m */,
+				20E1B8051BE5FC2F00D4432F /* UIImage+AYHelpers.h */,
+				20E1B8061BE5FC2F00D4432F /* UIImage+AYHelpers.m */,
+				204C6ED01BE5ADE5009CBA21 /* UILabel+MTHelpers.h */,
+				204C6ED11BE5ADE5009CBA21 /* UILabel+MTHelpers.m */,
+				20A4AE311BE5263700F21216 /* CLLocation+MTHelpers.h */,
+				20A4AE321BE5263700F21216 /* CLLocation+MTHelpers.m */,
+				20A4AE4D1BE5301700F21216 /* MTBearingFormatter.h */,
+				20A4AE4E1BE5301700F21216 /* MTBearingFormatter.m */,
+				20A4AE411BE52CE600F21216 /* MTDateFormatter.h */,
+				20A4AE421BE52CE600F21216 /* MTDateFormatter.m */,
+				20A4AE6B1BE557C300F21216 /* MTPrecipitationChanceFormatter.h */,
+				20A4AE6C1BE557C300F21216 /* MTPrecipitationChanceFormatter.m */,
+				20A4AE441BE52D8900F21216 /* MTTemperatureComparisonFormatter.h */,
+				20A4AE451BE52D8900F21216 /* MTTemperatureComparisonFormatter.m */,
+				20A4AE471BE52E2500F21216 /* MTTemperatureFormatter.h */,
+				20A4AE481BE52E2500F21216 /* MTTemperatureFormatter.m */,
+				20A4AE4A1BE52FD800F21216 /* MTWindSpeedFormatter.h */,
+				20A4AE4B1BE52FD800F21216 /* MTWindSpeedFormatter.m */,
+				20A4AE2B1BE523DE00F21216 /* NSDate+MTHelpers.h */,
+				20A4AE2C1BE523DE00F21216 /* NSDate+MTHelpers.m */,
+				20A4AE531BE531E600F21216 /* UIColor+MTTints.h */,
+				20A4AE541BE531E600F21216 /* UIColor+MTTints.m */,
+				203397001BE580E70046F2B2 /* UIFont+MTHelpers.h */,
+				203397011BE580E70046F2B2 /* UIFont+MTHelpers.m */,
+				20A4AE5F1BE53C9D00F21216 /* UIView+AYUtils.h */,
+				20A4AE601BE53C9D00F21216 /* UIView+AYUtils.m */,
+				20E1B8231BE6A59A00D4432F /* NSString+MTHelpers.h */,
+				20E1B8241BE6A59A00D4432F /* NSString+MTHelpers.m */,
+				206CBD151BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.h */,
+				206CBD161BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3AAB4626AF4368D38924EADE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				203238491BE975160015352E /* EBCardCollectionViewLayout */,
+				206CBD221BE6D99F005FE76E /* FSOpenInInstagram */,
+				206CBD1B1BE6C3EE005FE76E /* JTProgressHUD */,
+				206CBD111BE6B987005FE76E /* DAKeyboardControl */,
+				20E1B8121BE6A25F00D4432F /* STPopup */,
+				20A4AE341BE526FB00F21216 /* LMGeocoder */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		4F6585480B09614C3460FB7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C20DD8157E652F46D5DC9234 /* MetioTests-Info.plist */,
+				AC03236A83B733D178BAD883 /* MetioTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58F549EE5845DAB7103A2DBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6F147700DB1986D2769ADC2C = {
+			isa = PBXGroup;
+			children = (
+				CA9915EC194B931D350BFD29 /* Metio */,
+				8DF36F08ACD63DFC696BA14A /* MetioTests */,
+				A5B53A96B027CB0383F38A4D /* Frameworks */,
+				FE7D47D8A80357BD1B6577FC /* Pods */,
+				75F2E527516D724F4CF0A4AF /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		75E00777DF9AED46600F2F56 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				756FD24D19D9EB4F395E5F67 /* LaunchScreen.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		75F2E527516D724F4CF0A4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628DDCE4BE3E602757864863 /* Metio.app */,
+				787CF9092B73971CD0E2D083 /* Metio.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A6237C742E8F9566E7904D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2D03F54B1ECA9536BAD4919 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		889B95F091AAEE15158A25ED /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8B10223E1FAF2EEF95E70AA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20B678741BE70000003896E6 /* MTPromptView.h */,
+				20B678751BE70000003896E6 /* MTPromptView.m */,
+				20A4AE591BE538A600F21216 /* MTWeatherView.h */,
+				20A4AE5A1BE538A600F21216 /* MTWeatherView.m */,
+				204C6ECA1BE5AB19009CBA21 /* MTStoriesView.h */,
+				204C6ECB1BE5AB19009CBA21 /* MTStoriesView.m */,
+				204C6ECD1BE5AC56009CBA21 /* MTStoriesViewCell.h */,
+				204C6ECE1BE5AC56009CBA21 /* MTStoriesViewCell.m */,
+				20E1B8091BE5FE7F00D4432F /* MTIconButton.h */,
+				20E1B80A1BE5FE7F00D4432F /* MTIconButton.m */,
+				206CBD261BE6F7B1005FE76E /* MTAboutViewButton.h */,
+				206CBD271BE6F7B1005FE76E /* MTAboutViewButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D9B3C9CF893AEE3DDE84944 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C05113ACFF684194A7A44A1 /* Info.plist */,
+				203396FB1BE5642E0046F2B2 /* InfoPlist.strings */,
+				20A4AE711BE55AA500F21216 /* Localizable.strings */,
+				E99B2A7849F02C7417D65793 /* Metio-Prefix.pch */,
+				F8DBFD7AB3CC4679EC50CA36 /* main.m */,
+				20365D481BE70E5F0096FF60 /* Almaty.gpx */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		8DF36F08ACD63DFC696BA14A /* MetioTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F549EE5845DAB7103A2DBB /* Helpers */,
+				4F6585480B09614C3460FB7B /* Resources */,
+				889B95F091AAEE15158A25ED /* Tests */,
+			);
+			path = MetioTests;
+			sourceTree = "<group>";
+		};
+		99D1C5A8448E879A5677B4DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20A4AE261BE4A41C00F21216 /* MTDailyForecast.h */,
+				20A4AE271BE4A41C00F21216 /* MTDailyForecast.m */,
+				20A4AE501BE530E100F21216 /* MTDailyForecastViewModel.h */,
+				20A4AE511BE530E100F21216 /* MTDailyForecastViewModel.m */,
+				20A4AE6E1BE5582100F21216 /* MTPrecipitation.h */,
+				20A4AE6F1BE5582100F21216 /* MTPrecipitation.m */,
+				20A4AE221BE4A41C00F21216 /* MTTemperature.h */,
+				20A4AE231BE4A41C00F21216 /* MTTemperature.m */,
+				20A4AE1F1BE4A32300F21216 /* MTWeatherUpdate.h */,
+				20A4AE201BE4A32300F21216 /* MTWeatherUpdate.m */,
+				20A4AE681BE5559D00F21216 /* MTWeatherUpdateCache.h */,
+				20A4AE691BE5559D00F21216 /* MTWeatherUpdateCache.m */,
+				20A4AE3E1BE52B8E00F21216 /* MTWeatherViewModel.h */,
+				20A4AE3F1BE52B8E00F21216 /* MTWeatherViewModel.m */,
+				204C6ED31BE5AE4A009CBA21 /* MTStory.h */,
+				204C6ED41BE5AE4A009CBA21 /* MTStory.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5B53A96B027CB0383F38A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A6237C742E8F9566E7904D /* iOS */,
+				C36F46E6355E80F8046D21CC /* Pods_Metio.framework */,
+				B101EF69DBD3A2C90DA6E9CE /* Pods_unit_tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED4FAFD3315EC9720D0BB63 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				20A4AE651BE5546E00F21216 /* MTApplicationManager.h */,
+				20A4AE661BE5546E00F21216 /* MTApplicationManager.m */,
+				202C58061BE4A10D0090109A /* MTForecastManager.h */,
+				202C58071BE4A10D0090109A /* MTForecastManager.m */,
+				20A4AE2E1BE5259100F21216 /* MTLocationManager.h */,
+				20A4AE2F1BE5259100F21216 /* MTLocationManager.m */,
+				20A4AE3B1BE528AB00F21216 /* MTWeatherManager.h */,
+				20A4AE3C1BE528AB00F21216 /* MTWeatherManager.m */,
+				20E1B80C1BE6919000D4432F /* MTStoriesManager.h */,
+				20E1B80D1BE6919000D4432F /* MTStoriesManager.m */,
+				206CBD181BE6BCC9005FE76E /* MTAlertManager.h */,
+				206CBD191BE6BCC9005FE76E /* MTAlertManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C75CDB1F8BD929715D02CC27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A79CC547117A3774B51E8D9 /* MTAppDelegate.h */,
+				7C9B9AAAAFF93DBB515D7508 /* MTAppDelegate.m */,
+				20A4AE561BE5368E00F21216 /* MTWeatherViewController.h */,
+				20A4AE571BE5368E00F21216 /* MTWeatherViewController.m */,
+				20E1B80F1BE6A0B600D4432F /* MTStoryFormViewController.h */,
+				20E1B8101BE6A0B600D4432F /* MTStoryFormViewController.m */,
+				206CBD231BE6F6B0005FE76E /* MTAboutViewController.h */,
+				206CBD241BE6F6B0005FE76E /* MTAboutViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA9915EC194B931D350BFD29 /* Metio */ = {
+			isa = PBXGroup;
+			children = (
+				99D1C5A8448E879A5677B4DD /* Models */,
+				8B10223E1FAF2EEF95E70AA3 /* Views */,
+				C75CDB1F8BD929715D02CC27 /* Controllers */,
+				24CE34147482ACF52408D26C /* Helpers */,
+				BED4FAFD3315EC9720D0BB63 /* Managers */,
+				3AAB4626AF4368D38924EADE /* Libraries */,
+				07E9319B3A83E9DA874ED533 /* Resources */,
+				20B65C85207E68FB00AB4DD9 /* Secrets.h */,
+			);
+			path = Metio;
+			sourceTree = "<group>";
+		};
+		FE7D47D8A80357BD1B6577FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D57731742DD84874B457465 /* Pods-unit_tests.release.xcconfig */,
+				C96EFC0977A398EC3BC97EF0 /* Pods-unit_tests.debug.xcconfig */,
+				64BA2AF9C575207C0F440A18 /* Pods-Metio.release.xcconfig */,
+				5D7CD5E47A4F06EFF068E01C /* Pods-Metio.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF3C071312CDF34D36248D0 /* Metio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09F7E51A517A141A10E9435 /* Build configuration list for PBXNativeTarget "Metio" */;
+			buildPhases = (
+				F8763F0CC4368E48DE19C523 /* Check Pods Manifest.lock */,
+				4C0432E8BD9C95D40F38C1C8 /* Sources */,
+				7C73FC603E8829D0DF804C54 /* Frameworks */,
+				8A42642EB3241FF4B2CDFAE3 /* Resources */,
+				CF2F0FCE2E7E6A343D83BD14 /* Embed Pods Frameworks */,
+				9D57846AEE4E4F5E0B00260E /* Copy Pods Resources */,
+				20365D471BE70A890096FF60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metio;
+			productName = Metio;
+			productReference = 628DDCE4BE3E602757864863 /* Metio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559BAE073BC31BEB3683C3D9 /* MetioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B555A250DB5894730DC5EFE /* Build configuration list for PBXNativeTarget "MetioTests" */;
+			buildPhases = (
+				E709F981F8A1E66ADBCAF046 /* Check Pods Manifest.lock */,
+				46650AC6BA184B3EA7FE1A0F /* Sources */,
+				6E66029DC84B8676EB866FF8 /* Frameworks */,
+				0B2C00F8ABA1E21DD1E04CE3 /* Resources */,
+				93568323E581475EB13E685F /* Embed Pods Frameworks */,
+				0434DB3FFF2563A0FFD67E12 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B817675C37D9F38C5C923146 /* PBXTargetDependency */,
+			);
+			name = MetioTests;
+			productName = MetioTests;
+			productReference = 787CF9092B73971CD0E2D083 /* Metio.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6896F753EDD63DCC31B672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					0CF3C071312CDF34D36248D0 = {
+						DevelopmentTeam = X5764AN68D;
+					};
+				};
+			};
+			buildConfigurationList = EF97285ECE116AFB78139930 /* Build configuration list for PBXProject "Metio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F147700DB1986D2769ADC2C;
+			productRefGroup = 75F2E527516D724F4CF0A4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF3C071312CDF34D36248D0 /* Metio */,
+				559BAE073BC31BEB3683C3D9 /* MetioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2C00F8ABA1E21DD1E04CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A42642EB3241FF4B2CDFAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116C1E3C9425040537471D19 /* Images.xcassets in Resources */,
+				204C6EC91BE5921B009CBA21 /* BebasNeue-Bold.otf in Resources */,
+				203397061BE582700046F2B2 /* Lato-Regular.ttf in Resources */,
+				203396FC1BE5642E0046F2B2 /* InfoPlist.strings in Resources */,
+				20A4AE721BE55AA500F21216 /* Localizable.strings in Resources */,
+				203397041BE581EC0046F2B2 /* Lato-Light.ttf in Resources */,
+				492FA0AFC590CF9178784CE5 /* Settings.bundle in Resources */,
+				20365D491BE70E5F0096FF60 /* Almaty.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0434DB3FFF2563A0FFD67E12 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20365D471BE70A890096FF60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 337e6662c13dc165ee9a5114becf5ff652b87ff1 bd9cb4e47506f14d584ea3b5dcc675ed06838ee850d59f876f81ce0267adcefd";
+		};
+		93568323E581475EB13E685F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D57846AEE4E4F5E0B00260E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metio/Pods-Metio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2F0FCE2E7E6A343D83BD14 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metio/Pods-Metio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E709F981F8A1E66ADBCAF046 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8763F0CC4368E48DE19C523 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46650AC6BA184B3EA7FE1A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0432E8BD9C95D40F38C1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202C58081BE4A10D0090109A /* MTForecastManager.m in Sources */,
+				203238481BE975100015352E /* EBCardCollectionViewLayout.m in Sources */,
+				20A4AE301BE5259100F21216 /* MTLocationManager.m in Sources */,
+				204C6ECF1BE5AC56009CBA21 /* MTStoriesViewCell.m in Sources */,
+				20B678721BE6F96F003896E6 /* AYAppStore.m in Sources */,
+				203397021BE580E70046F2B2 /* UIFont+MTHelpers.m in Sources */,
+				204C6ED21BE5ADE5009CBA21 /* UILabel+MTHelpers.m in Sources */,
+				206CBD171BE6BAA1005FE76E /* UIImagePickerController+MTBugFix.m in Sources */,
+				20A4AE3A1BE526FB00F21216 /* LMGeocoder.m in Sources */,
+				4040DBC9A51123CB3191C136 /* MTAppDelegate.m in Sources */,
+				20A4AE611BE53C9D00F21216 /* UIView+AYUtils.m in Sources */,
+				20E1B8221BE6A25F00D4432F /* UIViewController+STPopup.m in Sources */,
+				20B678761BE70000003896E6 /* MTPromptView.m in Sources */,
+				20A4AE3D1BE528AB00F21216 /* MTWeatherManager.m in Sources */,
+				204C6ECC1BE5AB19009CBA21 /* MTStoriesView.m in Sources */,
+				206CBD281BE6F7B1005FE76E /* MTAboutViewButton.m in Sources */,
+				20E1B80E1BE6919000D4432F /* MTStoriesManager.m in Sources */,
+				20A4AE5B1BE538A600F21216 /* MTWeatherView.m in Sources */,
+				20A4AE331BE5263700F21216 /* CLLocation+MTHelpers.m in Sources */,
+				20A4AE391BE526FB00F21216 /* LMAddress.m in Sources */,
+				20A4AE211BE4A32300F21216 /* MTWeatherUpdate.m in Sources */,
+				20E1B8111BE6A0B600D4432F /* MTStoryFormViewController.m in Sources */,
+				20A4AE2A1BE4A41C00F21216 /* MTDailyForecast.m in Sources */,
+				20A4AE521BE530E100F21216 /* MTDailyForecastViewModel.m in Sources */,
+				204C6ED51BE5AE4A009CBA21 /* MTStory.m in Sources */,
+				20E1B80B1BE5FE7F00D4432F /* MTIconButton.m in Sources */,
+				206CBD211BE6D99C005FE76E /* FSOpenInInstagram.m in Sources */,
+				20E1B81F1BE6A25F00D4432F /* STPopupLeftBarItem.m in Sources */,
+				20A4AE431BE52CE700F21216 /* MTDateFormatter.m in Sources */,
+				206CBD1E1BE6C3EF005FE76E /* JTProgressHUD.m in Sources */,
+				20A4AE281BE4A41C00F21216 /* MTTemperature.m in Sources */,
+				20E1B8071BE5FC2F00D4432F /* UIImage+AYHelpers.m in Sources */,
+				20A4AE4C1BE52FD800F21216 /* MTWindSpeedFormatter.m in Sources */,
+				20E1B8201BE6A25F00D4432F /* STPopupNavigationBar.m in Sources */,
+				20A4AE401BE52B8E00F21216 /* MTWeatherViewModel.m in Sources */,
+				206CBD1A1BE6BCC9005FE76E /* MTAlertManager.m in Sources */,
+				20A4AE701BE5582100F21216 /* MTPrecipitation.m in Sources */,
+				206CBD141BE6B987005FE76E /* DAKeyboardControl.m in Sources */,
+				20E1B8211BE6A25F00D4432F /* UIResponder+STPopup.m in Sources */,
+				20A4AE671BE5546E00F21216 /* MTApplicationManager.m in Sources */,
+				20E1B81E1BE6A25F00D4432F /* STPopupController.m in Sources */,
+				1A078656CF79D7132153C781 /* LaunchScreen.xib in Sources */,
+				20A4AE4F1BE5301700F21216 /* MTBearingFormatter.m in Sources */,
+				A01EB7554C2D330E11D55A5E /* main.m in Sources */,
+				206CBD251BE6F6B0005FE76E /* MTAboutViewController.m in Sources */,
+				20E1B8251BE6A59A00D4432F /* NSString+MTHelpers.m in Sources */,
+				20A4AE2D1BE523DE00F21216 /* NSDate+MTHelpers.m in Sources */,
+				20A4AE551BE531E600F21216 /* UIColor+MTTints.m in Sources */,
+				20A4AE461BE52D8900F21216 /* MTTemperatureComparisonFormatter.m in Sources */,
+				20A4AE6D1BE557C300F21216 /* MTPrecipitationChanceFormatter.m in Sources */,
+				20A4AE491BE52E2500F21216 /* MTTemperatureFormatter.m in Sources */,
+				20A4AE581BE5368E00F21216 /* MTWeatherViewController.m in Sources */,
+				20B678731BE6F96F003896E6 /* AYFeedback.m in Sources */,
+				20A4AE6A1BE5559D00F21216 /* MTWeatherUpdateCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B817675C37D9F38C5C923146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CF3C071312CDF34D36248D0 /* Metio */;
+			targetProxy = E0C774BB441D847596C1EAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		350EBAE42A8EED86C51EB1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D57731742DD84874B457465 /* Pods-unit_tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metio.app/Metio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Metio/Resources/Other-Sources/Metio-Prefix.pch";
+				INFOPLIST_FILE = "MetioTests/Resources/MetioTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Metio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		571EBDD78E678F962A2F1B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87D39E55AA3C780FCA54E959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BA2AF9C575207C0F440A18 /* Pods-Metio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metio/Resources/Other-Sources/Metio-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "Metio/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Metio;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6C86D2FD3ECBC5A7F9565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7E32C30C82380EF72DEAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96EFC0977A398EC3BC97EF0 /* Pods-unit_tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metio.app/Metio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Metio/Resources/Other-Sources/Metio-Prefix.pch";
+				INFOPLIST_FILE = "MetioTests/Resources/MetioTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Metio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDA5B80BA23D0BAA0E4EBC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7CD5E47A4F06EFF068E01C /* Pods-Metio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metio/Resources/Other-Sources/Metio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "Metio/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Metio;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B555A250DB5894730DC5EFE /* Build configuration list for PBXNativeTarget "MetioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350EBAE42A8EED86C51EB1F2 /* Release */,
+				DF7E32C30C82380EF72DEAE5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09F7E51A517A141A10E9435 /* Build configuration list for PBXNativeTarget "Metio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D39E55AA3C780FCA54E959 /* Release */,
+				FDA5B80BA23D0BAA0E4EBC7D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF97285ECE116AFB78139930 /* Build configuration list for PBXProject "Metio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571EBDD78E678F962A2F1B26 /* Debug */,
+				CD6C86D2FD3ECBC5A7F9565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6896F753EDD63DCC31B672 /* Project object */;
+}
